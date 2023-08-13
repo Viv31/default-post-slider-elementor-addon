@@ -30,10 +30,10 @@
 			<div class="w3-content w3-display-container">
 
 				<div class="w3-display-container mySlides">
-				  <?php echo get_the_post_thumbnail($postID,'medium');?>
+				  <?php echo esc_html(get_the_post_thumbnail($postID,'medium'));?>
 				  	
 				  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-				    <?php echo $post->post_title; ?>
+				    <?php echo esc_html($post->post_title); ?>
 				  </div>
 				</div>
 
