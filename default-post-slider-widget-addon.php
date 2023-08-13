@@ -1,7 +1,7 @@
 <?php
  if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
- if(!class_exists('Elementor_post_Slider_addonWidget')){
-	class Elementor_post_Slider_addonWidget extends \Elementor\Widget_Base{
+ if(!class_exists('dpsa_Elementor_post_Slider_addonWidget')){
+	class dpsa_Elementor_post_Slider_addonWidget extends \Elementor\Widget_Base{
 		
 		public function get_name() {
 			return 'posts_slider_widget';
