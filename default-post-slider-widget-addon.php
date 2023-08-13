@@ -1,4 +1,5 @@
 <?php
+ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
  if(!class_exists('Elementor_post_Slider_addonWidget')){
 	class Elementor_post_Slider_addonWidget extends \Elementor\Widget_Base{
 		
